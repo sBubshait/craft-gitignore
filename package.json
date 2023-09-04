@@ -1,0 +1,22 @@
+{
+  "name": "craft-gitignore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cli.js",
+  "type": "module",
+  "bin": {
+    "craft-gitignore": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.10",
+    "linguist-js": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9"
+  }
+}

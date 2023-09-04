@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "allowJs": true,
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "moduleResolution": "Node16",
+    "module": "Node16",
+  },
+  "include": ["./src/**/*"]
+}
