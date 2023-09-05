@@ -23,27 +23,27 @@ Craft-gitignore analyzes your code directory and creates a comprehensive `.gitig
    Start by installing the Craft-gitignore npm package globally:
 
    ```shell
-   npm install -g craft-gitignore
+  $  npm install -g craft-gitignore
    ```
 
    *Note*: You may need to use sudo for installation, depending on your system's permissions.
 
-### Usage:
+## Usage:
 
-    Simply, run the following command in your project's root directory:
+  Simply, run the following command in your project's root directory:
 
-    ```shell
-    craft-gitignore
-    ```
+  ```shell
+  $  craft-gitignore
+  ```
 
-    Optionally, you can specify a different directory to analyze by providing it as an argument:
-    
-    ```shell
-        craft-gitignore /path/to/directory
-    ```
+  Optionally, you can specify a different directory to analyze by providing it as an argument:
+  
+  ```shell
+  $  craft-gitignore /path/to/directory
+  ```
 
-    *Note*: If no directory is specified, the current working directory will be used.
-    *Note*: The path can be either absolute or relative. So, you can use `craft-gitignore ./src` for example.
+  *Note*: If no directory is specified, the current working directory will be used.
+  *Note*: The path can be either absolute or relative. So, you can use `craft-gitignore ./src` for example.
     
 
 ## Contributing 🤝
